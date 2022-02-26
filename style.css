@@ -1,0 +1,247 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #6610f2;
+}
+.nav-link {
+   color:#6610f2;
+}
+.grid{
+    height: 650px;
+    display: grid;
+    grid-gap:45px;
+    grid-template-areas: 
+    "five one two"
+    "five three four" 
+    ;
+    padding-bottom: 20px;
+}
+
+.num{
+    position: relative;
+    border:2px solid #6710f286;
+}
+
+.num .btn{
+    position: absolute;    
+    top: 360px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.five .btn{
+    position: absolute;    
+    top: 810px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.num .btn{
+    background-color:#6610f2;
+    color: white;    
+    font-weight: 600;
+    border-radius: 0;
+}
+
+.num .btn:hover{
+    background-color:white;
+    color: #6610f2;    
+    font-weight: 600;
+}
+
+.one{
+    grid-area:one;
+}
+
+.one img{
+    
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.two{
+    grid-area:two;
+}
+
+.two img{
+    
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.three {
+    grid-area:three;
+}
+
+.three img{    
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.four{
+    grid-area:four;
+    
+}
+
+.four img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    
+}
+
+.five{
+    grid-area:five;
+}
+
+.five img{
+    height: 850px;
+    width: 400px;
+    object-fit: cover;
+}
+
+
+
+.one:hover{
+    border:2px solid #6610f2;
+}
+
+.two:hover{
+    border:2px solid #6610f2;
+}
+
+.three:hover{
+    border:2px solid #6610f2;
+}
+
+.four:hover{
+    border:2px solid #6610f2;
+}
+
+.five:hover{
+    border:2px solid #6610f2;
+}
+
+
+.products{
+    height: 800px;
+    margin-top: 200px;
+}
+.color{
+    color:#6610f2;
+}
+
+
+.products .btn{
+    background-color:white;
+    color: #6610f2;
+    border: 1px solid #6610f2;
+    float: right;
+}
+
+.products .btn:hover{
+    background-color:#6610f2;
+    color: white;
+    float: right;
+}
+
+.products .section{
+    border-radius: 1%;
+    border: 1px solid #6610f2;
+}
+
+.products .section:hover{
+    background-color:#6710f21c;
+    border-radius: 1%;
+    border: 1px solid #6610f2;
+}
+
+.products p{
+    color: #6610f2;
+}
+
+/* black friday section start */
+.black{
+    margin-top: 300px;
+    background-color: #6610f2;
+    color:white;
+    height: 600px;
+    text-align: center;
+}
+.content{
+    padding: 100px;
+}
+.content h1{
+    font-size: 160px;
+}
+.content h2{
+    font-size: 80px;
+}
+.content h3{
+    font-size: 50px;
+}
+.browse a{
+    color:#6610f2;
+}
+.deals a{
+    color:#6610f2;
+}
+
+
+/* black friday section end */
+
+/* browse section start  */
+.browse{
+    height: 500px;
+}
+.browse .list {
+    padding: 50px;
+}
+.browse .list .row{
+    padding: 50px 0px;
+}
+.browse img{
+    padding: 40px;
+    height: 200px;
+    width: auto;
+}
+
+
+
+
+/* browse section end */
+
+
+
+
+/* footer start */
+.footer{
+    margin-top: 100px;
+    background-color: #6610f2;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.footer p{
+    color: white;
+}
+.footer i{
+    color: #6710f263;
+    background-color: white;
+}
+.footer i:hover{
+    color: #6610f2;
+    background-color: white;
+}
+
+.footer-icon i{
+    color: #6610f2;
+    background-color: white;
+    margin: 10px;
+}
+.footer-icon p{
+    color: white;
+}
